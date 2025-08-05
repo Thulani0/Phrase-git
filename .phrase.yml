@@ -2,16 +2,15 @@ phrase:
   access_token: c18c4feab8692804aa5e46f8e3ca9082c2ffce0bf4fa15e3131b9d6780555aaa
   project_id: 748f09b9ff13be3a5a297f7149fe9e44
 
-file_format: json
-locale_id: en
-
 push:
   sources:
   - file: ./en.json
     params:
       file_format: simple_json
+    locale_id: en
 pull:
   targets:
   - file: es.json
     params:
       file_format: simple_json
+    locale_id: es
