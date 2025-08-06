@@ -1,1 +1,7 @@
-{}
+{
+  "bank": "Banco",
+  "crypto": "Cripto",
+  "payment_link": "Enlace de pago",
+  "receive_money_via": "Recibir dinero vía",
+  "share_your_payment_details": "Comparte tus detalles de pago"
+}
